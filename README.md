@@ -1,2 +1,2 @@
-# mc-simple-website
+# Minecraft Simple Website
  
