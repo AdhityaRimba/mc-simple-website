@@ -1,0 +1,72 @@
+.wpage {
+	position: absolute;
+	top: 200px;
+	left: 450px;
+}
+.clear {
+	clear: both;
+}
+.stat-ip {
+	position: absolute;
+	top: 141px;
+	left: 520px;
+}
+/*.bg-grd {
+	background: #0F2027;  /* fallback for old browsers 
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   Chrome 10-25, Safari 5.1-6 
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+}*/
+.bg-grd {
+	background-image: url("../img/mcbg.jpg");
+}
+.wpage2 {
+	position: absolute;
+	top: 315px;
+	left: 37%;
+}
+div.anim:first-of-type {
+	animation: showup 7s infinite;
+}
+div.anim {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+div.anim:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+div.anim:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+p {
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
