@@ -4,10 +4,10 @@ require 'function.php';
 
 include 'header.php';
  ?>
- <div class="container bg-dark mt-3 shadow-lg" style="width: 1300px; height: 500px">
- 	<div class="row">
+ <div class="container bg-dark mt-3 rondet shadow-lg" style="width: 1300px; height: 500px">
+ 	<div class="row stat">
  		<div class="col-md-auto text-uppercase stat-ip">
- 			<h1 class="bold"><?= $ip; ?></h1>
+ 			<h1><?= $ip; ?></h1>
  		</div>
  		<div class="w-100"></div>
  		<div class="col-md-auto stat-stat">
@@ -19,6 +19,22 @@ include 'header.php';
 			 ?>
 			<h3 class="text-danger">Offline</h3>
 			<?php } ?>
+ 		</div>
+ 		<div class="w-100"></div>
+ 		<div class="col-md-auto stat-player">
+ 			<h3 class="text-info"><?= $player; ?>/<?= $playerm; ?> Player</h3>
+ 		</div>
+ 		<div class="w-100"></div>
+ 		<div class="col-md-auto stat-motd">
+ 			<h4>
+ 				<?php print_r($motd[0]); ?>
+ 			</h4>
+ 		</div>
+ 		<div class="w-100"></div>
+ 		<div class="col-md-auto stat-motd1">
+ 			<h4>
+ 				<?php print_r($motd[1]); ?>
+ 			</h4>
  		</div>
  	</div>
  </div>

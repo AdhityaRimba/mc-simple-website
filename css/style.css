@@ -6,15 +6,33 @@
 .clear {
 	clear: both;
 }
+.rondet {
+	border-radius: 50px;
+}
 .stat-ip {
 	position: absolute;
-	top: 141px;
-	left: 520px;
+	top: 241px;
+	left: 38%;
 }
 .stat-stat {
 	position: absolute;
-	top: 200px;
-	left: 610px;
+	top: 300px;
+	left: 45%;
+}
+.stat-player {
+	position: absolute;
+	top: 354px;
+	left: 40%;
+}
+.stat-motd {
+	position: absolute;
+	top: 400px;
+	left: 38%;
+}
+.stat-motd1 {
+	position: absolute;
+	top: 441px;
+	left: 33%;
 }
 /*.bg-grd {
 	background: #0F2027;  /* fallback for old browsers 
