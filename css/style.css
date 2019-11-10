@@ -11,6 +11,11 @@
 	top: 141px;
 	left: 520px;
 }
+.stat-stat {
+	position: absolute;
+	top: 200px;
+	left: 610px;
+}
 /*.bg-grd {
 	background: #0F2027;  /* fallback for old browsers 
 	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);   Chrome 10-25, Safari 5.1-6 
