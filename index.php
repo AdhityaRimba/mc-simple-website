@@ -13,10 +13,7 @@ include 'header.php';
 	<div class="clear"></div>
 	<div class="row wpage2">
 		<div class="col h3">
-			<div class="anim">Best </div>
-			<div class="anim">
-				<span>Minecraft Server</span>
-			</div>
+			Best Minecraft Server
 		</div>
 	</div>
 </div>
